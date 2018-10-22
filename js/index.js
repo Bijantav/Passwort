@@ -23,16 +23,7 @@
                 }
             },
             
-            password: {
-                validators: {
-                     stringLength: {
-                        min: 4,
-                    },
-                    notEmpty: {
-                        message: 'Bitte gib Dein Passwort ein oder erstell Dir eins in dem Du auf Passwort vergessen gehst'
-                    }
-                }
-              }
+           
             }
         })
         .on('success.form.bv', function(e) {
